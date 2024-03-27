@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
-import SessionProvider from './components/SessionProvider'
-import NavBar from "./components/NavBar";
 import { getServerSession } from "next-auth";
+import SessionProvider from './components/SessionProvider';
+import NavBar from "./components/NavBar";
+import "./globals.css";
 
 export const metadata = {
   title: 'Create Next App',
